@@ -54,7 +54,7 @@ Screenshots for each phase live in `screenshots/<phase-folder>/`, referenced inl
 | Event | Wazuh Rule ID | Rule Level | MITRE Technique | Tactic |
 |---|---|---|---|---|
 | RDP logon failure (brute force attempts) | 60122 | 5 | T1110 / T1531 | Credential Access / Impact |
-| RDP logon success | 60106 | — | T1078 (Valid Accounts) | Defense Evasion / Persistence |
+| RDP logon success | 60106 | 3 | T1078 (Valid Accounts) | Defense Evasion / Persistence |
 
 Full detail, screenshots, and hit counts (11 failed / 39 success events matched in Discover) are in [docs/06-detection-and-mitre-mapping.md](docs/06-detection-and-mitre-mapping.md).
 
